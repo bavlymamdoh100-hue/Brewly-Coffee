@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Brewly Coffee - fresh coffee, homemade bites and a calm place to slow down.">
+<title>Brewly Coffee | Good coffee. Good mood.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><div class="container nav-wrap">
+<a class="logo" href="#home"><b>B</b>Brewly</a>
+<button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+<nav class="nav" id="nav"><a class="active" href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="nav-cta" href="#contact">Visit Us</a>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="container hero-content">
+<span class="eyebrow">YOUR DAILY COFFEE STOP</span>
+<h1>Good coffee.<br><em>Good mood.</em></h1>
+<p>Freshly brewed coffee, homemade bites, and a calm place to slow down.</p>
+<div class="actions"><a class="btn primary" href="#menu">Explore Menu</a><a class="btn light" href="#contact">Find Us</a></div>
+</div></section>
+
+<section class="section cream" id="about"><div class="container two-col">
+<div><span class="tag">WHY BREWLY</span><h2>A little place for your everyday moments.</h2></div>
+<div><p>We keep things simple: carefully selected beans, fresh ingredients, friendly service, and a space that feels easy to stay in.</p><a class="link" href="#contact">Come say hello →</a></div>
+</div></section>
+
+<section class="section" id="menu"><div class="container">
+<div class="heading"><div><span class="tag">OUR MENU</span><h2>Made fresh, served warm.</h2></div><p>Simple favorites for coffee breaks, quick meetings, and slow mornings.</p></div>
+<div class="menu-grid">
+<article class="card"><span class="icon">☕</span><div><h3>Classic Latte</h3><p>Espresso, steamed milk, silky foam.</p></div><strong>85 EGP</strong></article>
+<article class="card"><span class="icon">☕</span><div><h3>Iced Spanish Latte</h3><p>Espresso, milk, sweet condensed milk.</p></div><strong>105 EGP</strong></article>
+<article class="card"><span class="icon">🥐</span><div><h3>Butter Croissant</h3><p>Golden, flaky, baked fresh every morning.</p></div><strong>70 EGP</strong></article>
+<article class="card"><span class="icon">🍰</span><div><h3>Classic Cheesecake</h3><p>Creamy cheesecake with a biscuit base.</p></div><strong>120 EGP</strong></article>
+</div></div></section>
+
+<section class="section dark"><div class="container feature"><div><span class="tag">A PLACE TO STAY</span><h2>Work. Meet. Relax.</h2><p>Fast Wi-Fi, comfortable seating, plenty of outlets, and coffee that keeps up with your day.</p><a class="btn primary" href="#contact">Plan Your Visit</a></div>
+<div class="stats"><div><b>8 AM</b><span>Open daily</span></div><div><b>5★</b><span>Local favorite</span></div><div><b>Wi-Fi</b><span>Always free</span></div></div></div></section>
+
+<section class="section cream" id="contact"><div class="container two-col">
+<div><span class="tag">GET IN TOUCH</span><h2>Come grab a cup.</h2><p>Have a question or just saying hi? Send us a message.</p>
+<div class="details"><div><small>Location</small><b>12 Nile Street, Cairo</b></div><div><small>Opening hours</small><b>Every day · 8 AM – 11 PM</b></div><div><small>Email</small><b>hello@brewly.example</b></div></div></div>
+<form class="form" id="contactForm"><label>Name</label><input type="text" placeholder="Your name" required><label>Email</label><input type="email" placeholder="you@example.com" required><label>Message</label><textarea rows="5" placeholder="How can we help?" required></textarea><button class="btn primary" type="submit">Send Message</button><p id="message"></p></form>
+</div></section>
+</main>
+<footer><div class="container footer"><a class="logo" href="#home"><b>B</b>Brewly</a><p>Concept project · HTML, CSS & JavaScript</p></div></footer>
+<script src="script.js"></script>
+</body></html>
